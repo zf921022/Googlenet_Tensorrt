@@ -17,7 +17,7 @@ struct PersonDetectResultObeject {
 
 int scanFiles(vector<string> &fileList, string inputDirectory);
 
-struct PersonDetectResultObeject mobilenet_detect(cv::Mat &rgbImage);
+PersonDetectResultObeject mobilenet_detect(cv::Mat &rgbImage);
 
 
 
